@@ -1,0 +1,21 @@
+p{
+    font-size:18px;
+    color:blue;
+}
+#header h5{
+    color:red;
+}
+div{
+    background-color: #808080;
+    width:100%;
+    padding: 0;
+    background-color:transparent;
+}
+body{
+    margin:0;
+    background-image:linear-gradient(to bottom right, red,orange,yellow,green,blue,indigo,violet);
+    background-repeat: no-repeat;
+    background-size:50% 50%;
+    background-position-x:50%;
+    /*background-position-y:50%;*/
+}

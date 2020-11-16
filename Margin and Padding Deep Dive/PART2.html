@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapsing margins, resets, and CSS box-sizing</title>
+    <style>
+        .body{
+            background:#f3f3f3;
+            font-size:1.2rem;
+            line-height:1.6;
+        }
+        .demo-box{
+            background:white;
+            width:80%;
+            box-shadow: 0 0 15px 0 rgba(0,0,0,0.5);
+            margin:100px auto;
+            /* border: 0.0001px solid white; */
+        }
+        .one{
+            background:#311847;
+            height:50px;
+            margin-top:100px;
+            padding-left:100px;
+            border: 0.0001px solid white;
+        }
+        p{
+            margin-top:1%;
+        }
+        .two{
+            background:#ec4067;
+            height:50px;
+        }
+        .three{
+            background:#a01a7d;
+            height:50px;
+            margin-bottom:100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-box">
+        <div class="one"><p>This is some text</p></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </div>
+</body>
+</html>
