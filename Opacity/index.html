@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opacity</title>
+    <style>
+        body{
+            background:#eee;
+            text-align: center;
+        }
+        .main-content{
+            background:#fff;
+            margin: 0 auto;
+            width:400px;
+            height:700px;
+            padding: 2%;
+            position: relative;
+        }
+        .circle{
+            width:400px;
+            height:400px;
+            position:absolute;
+            background:rgb(200,200,100);
+            border-radius: 200px;
+            top:50px;
+            left:50px;
+            opacity:1;
+        }
+        .circle-2{
+            width:400px;
+            height:400px;
+            position:absolute;
+            background:rgb(200,100,200);
+            border-radius: 200px;
+            top:250px;
+            left:150px;
+            opacity:0.3;
+        }
+        .circle-3{
+            width:400px;
+            height:400px;
+            position:absolute;
+            background:rgba(100,200,200,0.2);
+            border-radius: 200px;
+            top:50px;
+            left:250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="circle">Hello</div>
+        <div class="circle-2">Hello</div>
+        <div class="circle-3">Hello</div>
+    </div>
+</body>
+</html>

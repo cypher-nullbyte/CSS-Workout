@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borders</title>
+    <style>
+        *{
+            
+            /* box-sizing:border-box; */
+            padding:0;
+            margin:0;
+        }
+        body{
+            background:#eee;
+        }
+        #main-content{
+            border:0.001px #fff solid;
+            background-color:#fff;
+            margin:20px auto;
+            width:80%;
+            padding: 20px;
+            text-align:center;
+            box-shadow:0 0 15px rgba(0,0,0,.5);
+            display:grid;
+        }
+        .box{
+            padding:20px;
+            margin:20px;
+            width:200px;
+            float:left;
+            background:linear-gradient(rgb(245, 213, 218),rgb(201, 170, 175),rgb(141, 60, 73),pink);
+        }
+        .dashed{
+            border:10px blue dashed;
+        }
+        .dotted{
+            border:10px blue dotted;
+        }
+        .double{
+            border:10px blue double;
+        }
+        .groove{
+            border:10px blue groove;
+        }
+        .inset{
+            border:10px blue inset;
+        }
+        .outset{
+            border:10px blue outset;
+        }
+        .ridge{
+            border:10px blue ridge;
+        }
+        .solid{
+            border:10px blue solid;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-content">
+        <h1>These are all border types!</h1>
+        <div class="dashed box ">dashed</div>
+        <div class="dotted box">dotted</div>
+        <div class="double box">double</div>
+        <div class="groove box">groove</div>
+        <div class="inset box">inset</div>
+        <div class="outset box">outset</div>
+        <div class="ridge box">ridge</div>
+        <div class="solid box">solid</div>
+    </div>
+</body>
+</html>

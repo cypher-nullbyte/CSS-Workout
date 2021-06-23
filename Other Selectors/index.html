@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Links</title>
+
+    <style>
+        .content>a,.content>p{
+            text-decoration: none;
+            color:red;
+        }
+        /* let us use attribute selector  */
+        div a[href="#a"]{
+            font-weight: bolder;
+        }
+        /* Let us Try Psuedo Selector */
+        a:hover{
+            color:teal
+        }
+        a:active{
+            text-decoration:line-through;
+            color:blue
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <a href="#a">THIS IS A LINK</a><br>
+        <a href="#">THIS IS A LINK</a><br>
+        <a href="#">THIS IS A LINK</a><br>
+        <p>I'm RED</p>
+    </div>
+    <pre>
+                                                        ----------------------------------------------
+                                                        SO WE'VE MANY SELECTORS LIKE:- 
+                                                        ->Decendent Selector
+                                                        ->Child Selector   [>]
+                                                        ->Adjacent Selector [+]
+                                                        ->Attribute Selector 
+                                                        ->Psuedo Selector 
+                                                        ->First and Last Child Selector
+                                                        ->First and last of type Selector
+                                                        ->nth child Selector
+                                                        ->nth-of Type Selector
+                                                        ->Universal Selector
+                                                        ------------------------------------------------
+    </pre>
+</body>
+</html>
+
+
+

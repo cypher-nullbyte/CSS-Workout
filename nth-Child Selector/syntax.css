@@ -1,0 +1,21 @@
+ul li:nth-child(1),li:nth-child(7){
+    font-weight: bold;
+    color:black;
+}
+
+
+ul li:nth-child(even){
+    background: grey;
+}
+/* ul li:nth-child(odd)
+{
+    background:pink;
+} */
+/* we can replace above with this general formula */
+/* note that 'n' starts from 0 */
+ul li:nth-child(2n+1){
+    background:pink;
+}
+/* ------------- */
+/* nth-of-type() will simply ignore other types of elements in betweem */
+/* ------------- */
