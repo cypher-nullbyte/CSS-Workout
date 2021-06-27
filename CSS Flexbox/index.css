@@ -2,4 +2,26 @@
     border: 5px solid #ffcc5c;
     display: flex;
     flex-direction: row;
+    height: 60%;
+    width: 80%;
+    align-items: center;
+    /* justify-content: space-between; */
+
+}
+
+/* .container > div{
+    flex:1;
+} */
+/* flex-grow, flex-shrink, flex-basis */
+
+/* .container > .search{
+    flex:2;
+} */
+
+.logout{
+    align-self: flex-start;
+}
+
+.home{
+    align-self: flex-end;
 }
